@@ -1,0 +1,203 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   min-height: 100vh;
+   background-color: #fff;
+ }
+
+ .side-navbar {
+   width: 250px;
+   height: 100%;
+   position: fixed;
+   margin-left: -300px;
+   background-color: skyblue;
+   transition: 0.5s;
+ }
+
+ .nav-link:active,
+ .nav-link:focus,
+ .nav-link:hover {
+   background-color: skyblue;
+ }
+
+ .my-container {
+   transition: 0.4s;
+ }
+
+ .active-nav {
+   margin-left: 0;
+ }
+
+ /* for main section */
+ .active-cont {
+   margin-left: 250px;
+ }
+
+ #menu-btn {
+   background-color: skyblue;
+   color: black;
+   margin-left: -62px;
+ }
+
+ .my-container input {
+   border-radius: 2rem;
+   padding: 2px 20px;
+ }
+
+ .btn {
+   background-color: red;
+   border: none;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 20px;
+ }
+
+ .green {
+   background-color: #199319;
+ }
+
+ .red {
+   background-color: red;
+ }
+
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 30px;
+   margin-top: 16px;
+ }
+
+ table,
+ th,
+ td {
+   border: 1px solid #ddd;
+   padding: 8px;
+ }
+
+ th {
+   background-color: #f2f2f2;
+   text-align: left;
+ }
+
+ /* Modal */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Responsive Modal */
+@media (max-width: 768px) {
+  .modal-content {
+      width: 85%; 
+  }
+}
+
+
+ /* table for  modal add instance task*/
+ .ram1 {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+ }
+
+ /* button for add instance task*/
+ .ram2 {
+   background-color: skyblue;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-bottom: 5%;
+   
+ }
+
+ /* table for add instance task*/
+
+
+ .wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.b{
+  width: 200px;
+  height: 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color:skyblue;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/* .b:hover {
+  background-color: skyblue;
+  box-shadow: 0px 15px 20px black;
+  color: black;
+  transform: translateY(-7px);
+} */
+ 
