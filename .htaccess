@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/project1/$
+RewriteRule ^$ /project1/home.php [L]
